@@ -1,0 +1,22 @@
+#BlueJ class context
+comment0.target=UniqueTree
+comment0.text=\r\n\ UniqueTree\ class\ that\ helps\ searching\ and\ sorting\ non-duplicated\ datas\r\n\r\n\ @author\ \ \ \ \ \ Oyunomin\ Munkhkhurel\r\n\ @version\ \ \ \ \ 2/18/2018\r\n
+comment1.params=
+comment1.target=UniqueTree()
+comment1.text=\r\n\ Full\ constructor\ for\ UniqueTree\ class\r\n
+comment2.params=data\ position
+comment2.target=void\ add(java.lang.Object,\ int)
+comment2.text=\r\n\ Adds\ data\ to\ the\ tree\ starting\ from\ the\ root\r\n\ \r\n\ @param\ \ \ E\ data\ that\ wants\ to\ be\ added\r\n\ @param\ \ \ int\ position\ E's\ position\ in\ the\ array\r\n
+comment3.params=data\ position\ startNode
+comment3.target=UniqueTree.UniqueNode\ add(java.lang.Object,\ int,\ UniqueTree.UniqueNode)
+comment3.text=\r\n\ Adds\ data\ to\ the\ tree\ starting\ from\ the\ assigned\ startNode\ recursively\r\n\ \r\n\ @param\ \ \ E\ data\ that\ wants\ to\ be\ added\r\n\ @param\ \ \ int\ position\ E's\ position\ in\ the\ array\r\n\ @param\ \ \ UniqueNode<E>\ startNode\ assigned\ starting\ node\r\n
+comment4.params=
+comment4.target=int[]\ getPosition()
+comment4.text=\r\n\ Does\ the\ in-order\ traverse\ through\ the\ tree\ and\ returns\ their\ position\ of\ the\ array\ respectively\r\n\ \r\n\ @return\ \ array\ of\ position\ of\ the\ array\ of\ the\ objects\r\n
+comment5.params=stringPositions
+comment5.target=int[]\ inOrder(java.lang.String)
+comment5.text=\r\n\ Helper\ method\ gets\ the\ string\ version\ of\ the\ integer\ array\ and\ parse\ the\ value\ from\ it\ into\ integer\ array\r\n\ \r\n\ @param\ \ \ String\ \ string\ version\ of\ the\ integer\ array\r\n\ @return\ \ array\ of\ position\ of\ the\ array\ of\ the\ objects\r\n
+comment6.params=startNode
+comment6.target=java.lang.String\ collectStringPositions(UniqueTree.UniqueNode)
+comment6.text=\r\n\ Recursive\ helper\ function\ for\ collecting\ position\ within\ nodes\ of\ the\ tree,\ using\ in-order\ traversal\r\n\ \r\n\ @param\ \ \ startNode\ \ \ \ \ \ \ the\ node\ at\ which\ to\ start\ searching\ for\ the\ data\ within\ nodes\r\n\ @return\ \ \r\n
+numComments=7

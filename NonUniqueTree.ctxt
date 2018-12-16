@@ -1,0 +1,27 @@
+#BlueJ class context
+comment0.target=NonUniqueTree
+comment0.text=\r\n\ NonUniqueTree\ class\ that\ helps\ searching\ and\ sorting\ duplicated\ datas\r\n\r\n\ @author\ \ \ \ \ \ Oyunomin\ Munkhkhurel\r\n\ @version\ \ \ \ \ 2/18/2018\r\n
+comment1.params=
+comment1.target=NonUniqueTree()
+comment1.text=\r\n\ Full\ constructor\ for\ NonUniqueTree\ class\r\n
+comment2.params=data\ position
+comment2.target=void\ add(java.lang.Object,\ int)
+comment2.text=\r\n\ Adds\ data\ to\ the\ tree\ starting\ from\ the\ root\r\n\ \r\n\ @param\ \ \ E\ data\ that\ wants\ to\ be\ added\r\n\ @param\ \ \ int\ position\ E's\ position\ in\ the\ array\r\n
+comment3.params=data\ position\ startNode
+comment3.target=NonUniqueTree.NonUniqueNode\ add(java.lang.Object,\ int,\ NonUniqueTree.NonUniqueNode)
+comment3.text=\r\n\ Adds\ data\ to\ the\ tree\ starting\ from\ the\ assigned\ startNode\ recursively\r\n\ \r\n\ @param\ \ \ E\ data\ that\ wants\ to\ be\ added\r\n\ @param\ \ \ int\ position\ E's\ position\ in\ the\ array\r\n\ @param\ \ \ NonUniqueNode<E>\ startNode\ assigned\ starting\ node\r\n
+comment4.params=position\ startNode
+comment4.target=NonUniqueTree.IntNode\ add(int,\ NonUniqueTree.IntNode)
+comment4.text=\r\n\ Creates\ new\ Intnode\ and\ adds\ to\ the\ tree\r\n\ \r\n\ @param\ \ \ int\ position\ data\ of\ the\ Intnode\ (position\ of\ the\ array\ of\ objects)\r\n\ @param\ \ \ IntNode\ startNode\ starting\ Node\ \r\n
+comment5.params=
+comment5.target=int[]\ getPosition()
+comment5.text=\r\n\ Does\ the\ in-order\ traverse\ through\ the\ tree\ and\ returns\ their\ position\ of\ the\ array\ respectively\r\n\ \r\n\ @return\ \ array\ of\ position\ of\ the\ array\ of\ the\ objects\r\n
+comment6.params=stringPositions
+comment6.target=int[]\ inOrder(java.lang.String)
+comment6.text=\r\n\ Helper\ method\ gets\ the\ string\ version\ of\ the\ integer\ array\ and\ parse\ the\ value\ from\ it\ into\ integer\ array\r\n\ \r\n\ @param\ \ \ String\ \ string\ version\ of\ the\ integer\ array\r\n\ @return\ \ array\ of\ position\ of\ the\ array\ of\ the\ objects\r\n
+comment7.params=startNode
+comment7.target=java.lang.String\ collectStringPositions(NonUniqueTree.NonUniqueNode)
+comment7.text=\r\n\ Recursive\ helper\ function\ for\ collecting\ position\ within\ nodes\ of\ the\ tree,\ using\ in-order\ traversal\r\n\ \r\n\ @param\ \ \ startNode\ \ \ \ \ \ \ the\ node\ at\ which\ to\ start\ searching\ for\ the\ data\ within\ nodes\r\n\ @return\ \ \r\n
+comment8.params=startNode
+comment8.target=java.lang.String\ collectStringPositionFromSame(NonUniqueTree.IntNode)
+numComments=9
